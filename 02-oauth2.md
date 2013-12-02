@@ -20,7 +20,7 @@ First of all the developers must register their application on ___. The reqistra
    | ------------- | ------ | ----------- |------------ |
    | client_id     | string | REQUIRED    | The `client_id` for your application obtained during the registration. |
    | response_type | string | REQUIRED    | Acoording to the [OAuth2 RFC](http://tools.ietf.org/html/rfc6749) it's value must be set to `code`. |
-   | redirect_uri  | string | OPTIONAL    | The URI where the user will be redirected after authorization. If not provided the URI from your app settings will be used. If provided, the domain part must match the URI in the settings. |
+   | redirect_uri  | string | OPTIONAL    | The URI where the user will be redirected after authorization. If not provided the URI from your app settings will be used. |
    | scope         | string | OPTIONAL    | A list of space-delimited scopes. Scopes are case-sensitive strings. |
    | state         | string | RECOMMENDED | CSRF? |
 
