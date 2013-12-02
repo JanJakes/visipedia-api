@@ -2,10 +2,10 @@
 
 OAuth2 is a protocol that lets external applications request user's private data without getting their password.
 
-## Application registration
+## 2.1 Application registration
 First of all the developers must register their application on ___. The reqistration process will assign the application a unique `client_id` and `client_secret`.
 
-## OAuth2 flow for web applications
+## 2.2 OAuth2 flow for web applications
 
 1. **Redirecting the user to Visipedia authentication server**
 
