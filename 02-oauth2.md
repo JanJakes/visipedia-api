@@ -44,13 +44,13 @@ First of all the developers must register their application on ___. The reqistra
 
    Parameters:
 
-   | Name          | Type   | Necessity   | Description |
-   | ------------- | ------ | ----------- | ----------- |
-   | client_id     | string | The `client_id` for your application obtained during the registration. |
-   | client_secret | string | The `client_secret` for your application obtained during the registration. |
-   | grant_type    | string | Acoording to the [OAuth2 RFC](http://tools.ietf.org/html/rfc6749) it's value must be set to `authorization_code`. |
-   | code          | string | The code received in the previous step. |
-   | redirect_uri  | string | ... |
+   | Name          | Type   | Necessity | Description |
+   | ------------- | ------ | --------- | ----------- |
+   | client_id     | string | REQUIRED  | The `client_id` for your application obtained during the registration. |
+   | client_secret | string | REQUIRED  | The `client_secret` for your application obtained during the registration. |
+   | grant_type    | string | REQUIRED  | Acoording to the [OAuth2 RFC](http://tools.ietf.org/html/rfc6749) it's value must be set to `authorization_code`. |
+   | code          | string | REQUIRED  | The code received in the previous step. |
+   | redirect_uri  | string | OPTIONAL  |
 
 4. **Access token response**
    
