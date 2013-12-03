@@ -53,7 +53,8 @@ First of all the developers must register their application on ___. The reqistra
    | redirect_uri  | string | OPTIONAL  | Required if it was included in the authorization request. The values must be identical.
 
 4. **Access token response**
-If the access token request is valid and authorized, the authorization server issues an `access_token` and `request_token` and returns them JSON encoded in the response body.
+
+   If the access token request is valid and authorized, the authorization server issues an `access_token` and returns it along with other other data JSON encoded in the response body.
 
    Parameters:
 
