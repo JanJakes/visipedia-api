@@ -28,8 +28,7 @@ First of all the developers must register their application on ___. The reqistra
 
 2. **Authorization response**
 
-   When the user accepts your request, Visipedia redirects back to your site. A `code` and `state` parameters will be passed with the request.
-
+   When the user accepts your request, Visipedia redirects back to your site.
    Parameters:
 
    | Name     | Type   | Description |
