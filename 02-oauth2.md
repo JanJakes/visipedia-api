@@ -50,7 +50,7 @@ First of all the developers must register their application on ___. The reqistra
    | client_secret | string | REQUIRED  | The `client_secret` for your application obtained during the registration. |
    | grant_type    | string | REQUIRED  | Acoording to the [OAuth2 RFC](http://tools.ietf.org/html/rfc6749) it's value must be set to `authorization_code`. |
    | code          | string | REQUIRED  | The code received in the previous step. |
-   | redirect_uri  | string | OPTIONAL  |
+   | redirect_uri  | string | OPTIONAL  | Required if it was included in the authorization request. The values must be identical.
 
 4. **Access token response**
    
